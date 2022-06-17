@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    place-items: center;
+    min-height: 100vh;
+}
+main{
+    display: grid;
+    gap: 7px;
+    grid-template-areas: 
+    'ed ed ellow'
+    'ed ed ellow'
+    'reen lue lue'
+    'reen blue-2 blue-2'
+    ;
+    width: 50%;
+    margin: auto;
+}
+.ed{
+    background-color: red;
+    grid-area: ed;
+    padding: 10px;
+}
+.ellow{
+    background-color: rgb(237, 174, 1);
+    grid-area: ellow;
+    padding: 10px;
+}
+.reen{
+    background-color: green;
+    grid-area: reen;
+    padding: 10px;
+}
+.lue{
+    background-color: rgb(18, 156, 211);
+    grid-area: lue;
+    padding: 10px;
+}
+.blue-2{
+    background-color: rgb(18, 156, 211);
+    grid-area: blue-2;
+    padding: 10px;
+}
